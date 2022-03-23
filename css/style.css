@@ -65,15 +65,52 @@ h3 {
     margin-bottom: 1rem;
 }
 
+/*Footer*/
+.footer {
+    background-color: var(--secundario);
+    padding: 0.5rem;
+    margin-top: 2rem;
+}
+.footer__texto{
+font-family:'Courier New', Courier, monospace;
+text-align: center;
+}
+
 /*Navegacion*/
 .navegacion {
     background-color: var(--secundario);
     padding: 1rem 0;
     display: flex; /*Flexbox para elementos dentro contenedor*/
     justify-content: center;
+    /*gap: 2rem; Separaración ancho enlaces forma nueva*/
 }
 .navegacion__enlace {
     font-family: var(--fuentePrincipal);
     color: var(--blanco);
     font-size: 3.5rem;
+    margin-right: 2rem; /*Separaración ancho enlaces forma clasica*/
+}
+.navegacion__enlace:last-of-type {  /*Selecciona el ultimo elemento del menu*/
+  margin-right: 0;  
+}
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
+    color: var(--secundarioOscuro);
+}
+
+/* Productos */
+.producto {
+
+}
+.producto__imagen {
+
+}
+.producto__información {
+
+}
+.producto__nombre {
+
+}
+.producto__precio {
+    
 }
